@@ -1,0 +1,28 @@
+.promo {
+    padding: 30px 0;
+}
+
+.promo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-content {
+    padding-right: 65px;
+}
+
+.promo-title {
+    margin: 0 0 30px;
+}
+
+.promo-text {
+    max-width: 487px;
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8rem, $weight: 400);
+    margin: 0 0 45px;
+}
+
+.promo-buttons>.button {
+    margin-right: 44px;
+}
